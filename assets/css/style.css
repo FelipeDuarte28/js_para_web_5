@@ -1,0 +1,62 @@
+.container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+.container>h1 {
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+
+.container>h3 {
+    margin-bottom: 0;
+}
+
+.input-container {
+    margin: 10px 0px 20px 0px;
+}
+
+#input-tarea {
+    width: 70%;
+    height: 100%;
+}
+
+#input-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-container {
+    display: flex;
+    font-size: 16px;
+}
+
+.todo-avance {
+    flex: 25%
+}
+
+.todo-list {
+    flex: 75%;
+}
+
+td {
+    padding: 0px 5px;
+}
+
+i {
+    cursor: pointer;
+    color: red;
+}
+
+.checkbox {
+    cursor: pointer;
+}

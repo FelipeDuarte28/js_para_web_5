@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <script src="https://kit.fontawesome.com/2153f41adb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <h3>Nueva tarea:</h3>
+        <div class="input-container">
+            <input type="text" id="input-tarea" placeholder="Escriba tarea...">
+            <button id="input-button">Agregar</button>
+        </div>
+        <div class="todo-container">
+            <div class="todo-avance">
+                <span>Total: </span><strong><span id="total"></span></strong>
+                <br>
+                <span>Realizadas: </span><strong><span id="realizadas"></span></strong>
+            </div>
+            <div class="todo-list">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th></th>
+                        <th></th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
